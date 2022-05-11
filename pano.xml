@@ -1,179 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node5" appversion="6.1.14" apprev="18105">
-  <panorama id="node5">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node5" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="248.495" fovmode="0">
-      <start fov="70" projection="4" tilt="-3.60621" pan="-98.3293"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="248.495">
+      <start pan="-98.3293" fov="70" projection="4" tilt="-3.60621"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="248.495" tags="Original|Sala1" longitude="" nodeid="node5" author="" source="" info="">
-      <mapcoords y_floorplan_percent="85.4117" y="-1.71661" mapid="PlanoVivienda" x="0.445633" x_floorplan_percent="33.6269"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Original|Sala1" latitude="" datetime="" heading="248.495" customnodeid="" nodeid="node5" comment="" longitude="">
+      <mapcoords x="0.445633" y_floorplan_percent="85.4117" x_floorplan_percent="33.6269" mapid="PlanoVivienda" y="-1.71661"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node6}" target="$fwd" id="Point02" title="" skinid="ht_node" description="" tilt="0" pan="242.933"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point02" description="" pan="242.933" title="" target="$fwd" skinid="ht_node" url="{node6}" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node6">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node6" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="248.176" fovmode="0">
-      <start fov="70" projection="4" tilt="-3.59882" pan="-95.8889"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="248.176">
+      <start pan="-95.8889" fov="70" projection="4" tilt="-3.59882"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="248.176" tags="Original|Sala2" longitude="" nodeid="node6" author="" source="" info="">
-      <mapcoords y_floorplan_percent="41.8517" y="-0.841141" mapid="PlanoVivienda" x="0.606308" x_floorplan_percent="45.7513"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Original|Sala2" latitude="" datetime="" heading="248.176" customnodeid="" nodeid="node6" comment="" longitude="">
+      <mapcoords x="0.606308" y_floorplan_percent="41.8517" x_floorplan_percent="45.7513" mapid="PlanoVivienda" y="-0.841141"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node1}" target="$fwd" id="Point01" title="" skinid="ht_node" description="" tilt="-3.53" pan="23.9889"/>
-      <hotspot url="{node5}" target="$fwd" id="Point02" title="" skinid="ht_node" description="" tilt="-6.2" pan="295.518"/>
-      <hotspot url="{node2}" target="$fwd" id="Point03" title="" skinid="ht_node" description="" tilt="-10.97" pan="336.992"/>
-      <hotspot url="{node4}" target="$fwd" id="Point04" title="" skinid="ht_node" description="" tilt="-3.76" pan="143.359"/>
-      <hotspot url="{node3}" target="$fwd" id="Point05" title="" skinid="ht_node" description="" tilt="-4.47" pan="89.1072"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="23.9889" title="" target="$fwd" skinid="ht_node" url="{node1}" tilt="-3.53"/>
+      <hotspot id="Point02" description="" pan="295.518" title="" target="$fwd" skinid="ht_node" url="{node5}" tilt="-6.2"/>
+      <hotspot id="Point03" description="" pan="336.992" title="" target="$fwd" skinid="ht_node" url="{node2}" tilt="-10.97"/>
+      <hotspot id="Point04" description="" pan="143.359" title="" target="$fwd" skinid="ht_node" url="{node4}" tilt="-3.76"/>
+      <hotspot id="Point05" description="" pan="89.1072" title="" target="$fwd" skinid="ht_node" url="{node3}" tilt="-4.47"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node4">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node4" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="338.546" fovmode="0">
-      <start fov="70" projection="4" tilt="-5.193" pan="-76.5836"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="338.546">
+      <start pan="-76.5836" fov="70" projection="4" tilt="-5.193"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="338.546" tags="Original|Patio" longitude="" nodeid="node4" author="" source="" info="">
-      <mapcoords y_floorplan_percent="7.10625" y="-0.142822" mapid="PlanoVivienda" x="0.365982" x_floorplan_percent="27.6166"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Original|Patio" latitude="" datetime="" heading="338.546" customnodeid="" nodeid="node4" comment="" longitude="">
+      <mapcoords x="0.365982" y_floorplan_percent="7.10625" x_floorplan_percent="27.6166" mapid="PlanoVivienda" y="-0.142822"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node6}" target="$fwd" id="Point02" title="" skinid="ht_node" description="" tilt="-0.14" pan="-58.5316"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point02" description="" pan="-58.5316" title="" target="$fwd" skinid="ht_node" url="{node6}" tilt="-0.14"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node1">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node1" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="261.372" fovmode="0">
-      <start fov="70" projection="4" tilt="-26.5237" pan="-98.9663"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="261.372">
+      <start pan="-98.9663" fov="70" projection="4" tilt="-26.5237"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="261.372" tags="Baño|Original" longitude="" nodeid="node1" author="" source="" info="">
-      <mapcoords y_floorplan_percent="40.7243" y="-0.818481" mapid="PlanoVivienda" x="0.995636" x_floorplan_percent="75.1295"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Baño|Original" latitude="" datetime="" heading="261.372" customnodeid="" nodeid="node1" comment="" longitude="">
+      <mapcoords x="0.995636" y_floorplan_percent="40.7243" x_floorplan_percent="75.1295" mapid="PlanoVivienda" y="-0.818481"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node6}" target="$fwd" id="Point02" title="" skinid="ht_node" description="" tilt="0" pan="102.8"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point02" description="" pan="102.8" title="" target="$fwd" skinid="ht_node" url="{node6}" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node2">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node2" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="368.806" fovmode="0">
-      <start fov="70" projection="4" tilt="-3.59882" pan="23.5762"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="368.806">
+      <start pan="23.5762" fov="70" projection="4" tilt="-3.59882"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="368.806" tags="Dormitorio1|Original" longitude="" nodeid="node2" author="" source="" info="">
-      <mapcoords y_floorplan_percent="69.7301" y="-1.40144" mapid="PlanoVivienda" x="0.977783" x_floorplan_percent="73.7824"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Dormitorio1|Original" latitude="" datetime="" heading="368.806" customnodeid="" nodeid="node2" comment="" longitude="">
+      <mapcoords x="0.977783" y_floorplan_percent="69.7301" x_floorplan_percent="73.7824" mapid="PlanoVivienda" y="-1.40144"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node6}" target="$fwd" id="Point01" title="" skinid="ht_node" description="" tilt="0" pan="268.627"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point01" description="" pan="268.627" title="" target="$fwd" skinid="ht_node" url="{node6}" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node3">
-    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4096" height="4096" leveltilesize="510" levelbias="0.400" levelingpitch="0">
-      <level preload="0" predecode="0" width="4096" height="4096"/>
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama id="node3" hideabout="1">
+    <input width="4096" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4096" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" levelbias="0.400" levelingroll="0">
+      <level width="4096" predecode="0" height="4096" preload="0"/>
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="283.095" fovmode="0">
-      <start fov="70" projection="4" tilt="-6.61389" pan="-66.6987"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fovfisheye="360" fovstereographic="270" fov="120" tilt="90" scaletofit="1" pan="360"/>
+    <view fovmode="0" pannorth="283.095">
+      <start pan="-66.6987" fov="70" projection="4" tilt="-6.61389"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" fov="120" scaletofit="1" fovstereographic="270" tilt="90"/>
     </view>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="283.095" tags="Dormitorio2|Original" longitude="" nodeid="node3" author="" source="" info="">
-      <mapcoords y_floorplan_percent="12.8118" y="-0.257492" mapid="PlanoVivienda" x="0.990143" x_floorplan_percent="74.715"/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="Dormitorio2|Original" latitude="" datetime="" heading="283.095" customnodeid="" nodeid="node3" comment="" longitude="">
+      <mapcoords x="0.990143" y_floorplan_percent="12.8118" x_floorplan_percent="74.715" mapid="PlanoVivienda" y="-0.257492"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label border="1" textalpha="1" enabled="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundcolor="0xffffff" height="20" textcolor="0x000000" borderradius="1" background="1" backgroundalpha="1" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0"/>
-      <hotspot url="{node6}" target="$fwd" id="Point03" title="" skinid="ht_node" description="" tilt="0" pan="289.152"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" height="20" background="1" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
+      <hotspot id="Point03" description="" pan="289.152" title="" target="$fwd" skinid="ht_node" url="{node6}" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendtime="1" zoomspeed="2" zoomin="0" zoomafteroutfov="20" zoomfov="20" enabled="1" zoomoutpause="1" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control contextprojections="0" dblclickfullscreen="0" contextfullscreen="1" lockedkeyboard="0" contextvr="1" invertwheel="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" lockedwheel="0" hideabout="0" lockedmouse="0" simulatemass="1" invertcontrol="1"/>
+    <transition zoomafterinfov="90" zoomoutpause="1" blendtime="1" zoomafteroutfov="20" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomfov="20" type="crossdissolve"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextvr="1" speedwheel="1" hideabout="1" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata datetime="" comment="" copyright="" customnodeid="" title="" latitude="" description="" heading="0" tags="" longitude="" nodeid="master" author="" source="" info=""/>
+    <userdata copyright="" author="" description="" title="" source="" info="" tags="" latitude="" datetime="" heading="0" customnodeid="" nodeid="master" comment="" longitude=""/>
   </masternode>
-  <map tileformat="png" id="PlanoVivienda" title="" bgcolor="rgba(255, 255, 255, 1)" width="1930" transparent="0" type="file" zoomlevels="1" height="2927" floorplannorth="0"/>
+  <map width="1930" id="PlanoVivienda" zoomlevels="1" transparent="0" title="" tileformat="png" height="2927" bgcolor="rgba(255, 255, 255, 1)" floorplannorth="0" type="file"/>
 </tour>
